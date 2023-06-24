@@ -1,0 +1,69 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(245, 245, 220,.5);
+}
+
+form{
+    width: 50vw;
+    height: auto;
+    padding: 30px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 0;
+    box-shadow: 2px 2px ;
+    background-color: beige;
+}
+
+input{
+    width: 100%;
+    padding: 5px ;
+}
+
+form>button{
+    align-self: flex-start;
+    padding: 5px 40px;
+    width: auto;
+}
+
+.error{
+    color: red;
+}
+
+.profile{
+    margin-top: 400px ;
+    position: relative;
+    width: 30vw;
+    height: auto;
+    padding: 30px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px ;
+    background-color: beige;
+}
+.profile>img{
+    height: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 30px;
+    border: 1px solid;
+}
+
+.profile>div{
+    padding: 20px;
+    height: auto;
+    width: 30vw;
+}
+
+.profile>p{
+    font-weight: bolder;
+}
